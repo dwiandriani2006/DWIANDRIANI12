@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet" href="testes.css"> 
+     <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      max-width: 1200px;
+      margin: auto;
+    }
+    h1 { text-align: center; margin-bottom: 30px; }
+    .artikel-wrapper {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 20px;
+    }
+    .artikel-card {
+      background: brown;
+      border-radius: 8px;
+      box-shadow: black;
+      overflow: hidden;
+      flex-direction: column;
+    }
+    .artikel-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+    .content {
+      padding: 15px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+    .content h3 { margin: 0 0 10px; font-size: 1.1rem; }
+    .content p { flex: 1; font-size: 0.95rem; line-height: 1.4; margin: 0 0 10px; }
+    .content a {
+      text-decoration: none;
+      color: #007bff;
+      font-weight: bold;
+    }
+    .content a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+     <div class="container">
+            <div class="header">
+            <h1 class="logo" style="text-align: center;">WELCOME TO MY WEBSITE</h1>
+                <ul>
+                    <li><a href="Beranda.html">HOME</a></li>
+                    <li><a href="Profil.html">PROFILE</a></li>
+                    <li><a href="Galeri.html">GALLERY</a></li>
+                    <li><a href="Artikel.html">ARTICLES</a></li>
+                    <li><a href="Tentang.html">ABOUT</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="artikel" class="artikel">
+            <h2 style="text-align: center;">ARTICLES</h2>
+            <center>
+            <p>Artikel terbaru akan ditampilkan di sini:</p>
+            </center>
+            <br>
+            <br>
+            <div class="artikel-card">
+                <div class="artikel-wrapper">
+
+     <div class="artikel-card">
+        <img src="Artikel 1.png" alt="UI Peringatkan Devisa Kabur">
+        <div class="content">
+          <h3>Kampus Asing Ramai Buka Kampus di RI, Pakar UI: Devisa Bisa Kabur</h3>
+          <p>Pakar UI sebut kampus asing kian banyak di Indonesia & bisa menyedot devisa. Solusi: program gelar ganda double degree.</p>
+          <a href="https://www.detik.com/edu/perguruan-tinggi/d-7962763/kampus-asing-ramai-buka-kampus-di-ri-pakar-ui-devisa-bisa-kabur" target="_blank">Baca selengkapnya →</a>
+        </div>
+      </div>
+
+      <div class="artikel-card">
+        <img src="artikel 2.png" alt="Western Sydney Surabaya">
+        <div class="content">
+          <h3>Western Sydney University Buka Kampus di Surabaya</h3>
+          <p>WSU resmi membuka kampus pertama di Surabaya—menawarkan program TI dan bisnis, sejak Februari 2025.</p>
+          <a href="https://tempo.co/internasional/western-sydney-university-australia-membuka-kampus-pertama-di-indonesia-1206930" target="_blank">Baca selengkapnya →</a>
+        </div>
+      </div>
+
+     <div class="artikel-card">
+        <img src="artikel 3.png" alt="Kampus Asing Lain">
+        <div class="content">
+          <h3>Semakin Banyak PT Asing Hadir di Indonesia</h3>
+          <p>Monash, Deakin-Lancaster, WSU, dan rencana Georgetown semuanya hadir untuk memperkuat daya saing perguruan tinggi lokal.</p>
+          <a href="https://www.kompas.id/baca/humaniora/2024/03/10/perguruan-tinggi-asing-terus-hadir-di-indonesia" target="_blank">Baca selengkapnya →</a>
+        </div>
+      </div>
+
+      <div class="artikel-card">
+        <img src="artikel 4.png" alt="Al-Azhar & Jordan University">
+        <div class="content">
+          <h3>Al-Azhar Cairo & Jordan University Bakal Buka Cabang di Indonesia</h3>
+          <p>Kemenag rencanakan kampus cabang Al‑Azhar dan Jordan University di bawah naungan PTIQ untuk pendidikan ulama.</p>
+          <a href="https://www.medcom.id/pendidikan/news-pendidikan/8KyZyrrN-universitas-al-azhar-cairo-dan-jordan-university-bakal-buka-cabang-di-indonesia" target="_blank">Baca selengkapnya →</a>
+        </div>
+      </div>
+
+      <div class="artikel-card">
+        <img src="artikel 5.png" alt="Kampus Internasional Jakarta">
+        <div class="content">
+          <h3>Kampus Bertaraf Internasional di Jakarta & Sekitarnya</h3>
+          <p>UI, SGU, Sampoerna, IULI, Podomoro, President, hingga Esa Unggul tawarkan program internasional di wilayah Jabodetabek.</p>
+          <a href="https://www.quipper.com/id/blog/quipper-campus/campus-info/p-kampus-internasional-di-jakarta/" target="_blank">Baca selengkapnya →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+   <footer>
+        <p>&copy; 2025 My Website. Dwi Andriani .</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
